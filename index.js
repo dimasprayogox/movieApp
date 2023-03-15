@@ -35,7 +35,7 @@ let getMovie = () => {
                             <div class="genre">
                                 <div>${data.Genre.split(",").join("</div><div>")}</div>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                     <h3>Plot:</h3>
                     <p>${data.Plot}</p>
